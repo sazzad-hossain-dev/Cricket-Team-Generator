@@ -4,12 +4,11 @@ const initialState = {
     currentStep: "teams", // 'teams', 'categories', or 'done'
     teams: [],
     categories: [
-        { name: "Batsman", players: [] },
-        { name: "Bowler", players: [] },
         { name: "All-Rounder", players: [] },
-        { name: "Wicketkeeper", players: [] },
-        { name: "Fielder", players: [] },
-        { name: "Coach", players: [] },
+        { name: "Bowler", players: [] },
+        { name: "Batsman", players: [] },
+        { name: "2nd Bowler", players: [] },
+        { name: " 2nd batsman", players: [] },
     ],
     currentCategoryIndex: 0,
 };
